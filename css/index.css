@@ -157,6 +157,8 @@ header {
     }
 }
 
+/*---hero---*/
+
 .hero-content {
     display: flex;
     align-items: center;
@@ -200,4 +202,56 @@ header {
 .hero-text a:nth-of-type(2) {
     border: 2px solid var(--clr-green-light);
     color: var(--clr-green-light);
+}
+
+/*---sobre---*/
+
+.sobre-content {
+    max-width: 1170px;
+    margin: 7rem auto;
+
+}
+
+.sobre-text {
+    margin: 0 auto;
+    width: 60%;
+    
+    text-align: center;
+    border-block: 2px solid var(--clr-primary-5);
+    padding: 2rem;
+}
+
+.sobre-text h4,
+.time-context h4 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+/*--horario de atendimento---*/
+
+.time-context {
+    max-width: 1170px;
+    margin: 7rem auto;
+
+    text-align: center;
+}
+
+.time-context table, th, td {
+    border: 2px solid var(--clr-primary-5);
+    border-collapse: collapse;
+}
+
+.time-context th, td {
+    padding: 1rem 4rem;
+    text-align: center;
+}
+
+.time-context tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+table {
+    width: 70%;
+    margin: 0 auto;
 }
